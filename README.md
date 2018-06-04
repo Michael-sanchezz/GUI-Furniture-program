@@ -1,1 +1,1 @@
-read me file
+This program calculates the amount owed for a mortgage
