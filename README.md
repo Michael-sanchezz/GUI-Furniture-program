@@ -1,1 +1,1 @@
-This program calculates the amount owed for a mortgage
+This is a GUI program that simulates items in an online marketplace and allows you to select quantity and furniture type by either ordering with a dropbox entering a keyword or ordering with checkboxes.
