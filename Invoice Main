@@ -1,3 +1,4 @@
+package Invoice7part;
 import java.awt.*;
 import java.awt.Font;
 import java.awt.event.*;
@@ -133,17 +134,17 @@ public InvoiceApp()
 	tooltip.setLocation(270,180);
 	
 	//these are checkbox items
-	checkbox1= new JCheckBox("Couches @ 84.54");
+	checkbox1= new JCheckBox("Couch $84.54");
 	checkbox1.setBounds(100, 260, 150,20);
-	checkbox2= new JCheckBox("Chairs @ 33.78");
+	checkbox2= new JCheckBox("Chairs $33.78");
 	checkbox2.setBounds(100, 290, 150,20);
-	checkbox3= new JCheckBox("Beds @ 128.21");
+	checkbox3= new JCheckBox("Beds $128.21");
 	checkbox3.setBounds(100,320,150,20);
-	checkbox4= new JCheckBox("Tables @ 79.21");
+	checkbox4= new JCheckBox("Tables $79.21");
 	checkbox4.setBounds(100,350,150,20);
-	checkbox5= new JCheckBox("Light Fixtures @ 20.21");
+	checkbox5= new JCheckBox("Light Fixtures $20.21");
 	checkbox5.setBounds(100,380,200,20);
-	checkbox6= new JCheckBox("Cabinets @ 98.21");
+	checkbox6= new JCheckBox("Cabinets $98.21");
 	checkbox6.setBounds(100,410,150,20);
 	
 	//this is the panel
