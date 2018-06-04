@@ -1,0 +1,21 @@
+package Invoice7part;
+
+public class StringUtil 
+{
+	public static String pad(String s, int i)
+	{
+		if (s.length()<i)
+		{
+			StringBuilder sb= new StringBuilder(s);
+			while (sb.length()<i)
+			{
+				sb.append(" ");
+			}
+			return sb.toString();
+		}
+		else 
+		{
+			return s.substring(0,i);
+		}
+	}
+}
